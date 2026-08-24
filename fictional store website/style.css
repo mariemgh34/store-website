@@ -1,0 +1,158 @@
+body{
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+ header a{
+    color: #e2e8f0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.div2 {
+    display: flex;
+    gap: 40px;
+}
+header {
+  background-color: #1e293b;
+  color: white;
+  padding: 20px
+  
+}
+
+
+
+header a:hover {
+  color: #60a5fa;
+}
+.div3{
+    text-align: center;
+    background-color:   #60a5fa;
+    padding: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.products {
+  display: grid;
+  
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #1e293b;
+}
+
+.product-section {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+}
+
+.product-section img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.product-section p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-section button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-section button:hover {
+  background-color: red;
+}
+footer{
+    display: flex;
+}
+.f2{
+    gap: 40px ;
+    padding: 60px;
+    padding-left: 200px;
+}
+.f1{
+    padding: 60px;
+}
+@media screen and (max-width: 440px) {
+    .f2{
+    gap: 40px ;
+    padding: 30px;
+    padding-left: 100px;
+}
+    .f1{
+    padding: 30px;
+}
+    header {
+    background-color: #1e293b;
+    color: white;
+    padding: 10px ;
+  
+}
+.div2{
+    gap: 10px;
+}
+    .div3{
+    
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+    .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+    
+
+}
+@media screen and (max-width: 768px) {
+
+    .f2 {
+        gap: 30px;
+        padding: 25px;
+        padding-left: 50px;
+    }
+
+    .f1 {
+        padding: 25px;
+    }
+
+    header {
+        background-color: #1e293b;
+        color: white;
+        padding: 10px;
+    }
+
+    .div2 {
+        gap: 10px;
+    }
+
+    .div3 {
+        padding: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 13px;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 15px;
+    }
+
+}
+
+
